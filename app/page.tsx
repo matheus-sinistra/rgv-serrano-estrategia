@@ -7,6 +7,8 @@ import Algoritmo from '@/components/Algoritmo'
 import Referencias from '@/components/Referencias'
 import Estrategia from '@/components/Estrategia'
 import Assessoria from '@/components/Assessoria'
+import Atribuicoes from '@/components/Atribuicoes'
+import Investimento from '@/components/Investimento'
 import Footer from '@/components/Footer'
 
 export default function Home() {
@@ -22,6 +24,8 @@ export default function Home() {
         <Referencias />
         <Estrategia />
         <Assessoria />
+        <Atribuicoes />
+        <Investimento />
       </main>
       <Footer />
     </>

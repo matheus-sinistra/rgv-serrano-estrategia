@@ -10,6 +10,8 @@ const navItems = [
   { href: '#referencias', label: 'Referências' },
   { href: '#estrategia', label: 'Estratégia' },
   { href: '#assessoria', label: 'Assessoria' },
+  { href: '#atribuicoes', label: 'Atribuições' },
+  { href: '#investimento', label: 'Investimento' },
 ]
 
 export default function Nav() {
