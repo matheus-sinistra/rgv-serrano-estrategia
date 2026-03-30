@@ -10,7 +10,7 @@ const nossasAtribuicoes = [
   },
   {
     title: 'Calendário Editorial Mensal',
-    description: 'Planejamento de todo o conteúdo do mês: temas, formatos, legendas, hashtags e datas de publicação — tudo pronto para execução.',
+    description: 'Planejamento de todo o conteúdo do mês: temas, formatos, legendas, hashtags e datas de publicação. Tudo pronto para execução.',
   },
   {
     title: 'Roteiros prontos para gravação',
@@ -22,7 +22,7 @@ const nossasAtribuicoes = [
   },
   {
     title: 'Públicos personalizados e Lookalike',
-    description: 'Mapeamos quem visita seu perfil, quem se engaja com seu conteúdo e quem já entrou em contato — e criamos públicos semelhantes para alcançar novos compradores qualificados.',
+    description: 'Mapeamos quem visita seu perfil, quem se engaja com seu conteúdo e quem já entrou em contato. A partir disso criamos públicos semelhantes para alcançar novos compradores qualificados.',
   },
   {
     title: 'Pixel e rastreamento de conversões',
@@ -31,10 +31,6 @@ const nossasAtribuicoes = [
   {
     title: 'Relatório mensal com insights',
     description: 'Todo mês você recebe um relatório claro com: alcance, leads gerados, custo por lead, melhores conteúdos e os próximos ajustes de estratégia.',
-  },
-  {
-    title: 'Treinamento para conversão via DM',
-    description: 'Capacitamos sua equipe para responder leads rapidamente, qualificar no WhatsApp e aumentar a taxa de conversão de contato para visita.',
   },
 ]
 
@@ -61,7 +57,7 @@ const atribuicoesCliente = [
   },
   {
     title: 'Bancar a verba de anúncios',
-    description: 'O valor investido em mídia paga vai direto para o Meta — não passa por nós. Você decide quanto investir por mês.',
+    description: 'O valor investido em mídia paga vai direto para o Meta, não passa por nós. Você decide quanto investir por mês.',
     tag: 'Direto ao Meta',
   },
   {
@@ -188,7 +184,7 @@ export default function Atribuicoes() {
                     <span style={{ color: 'var(--gold)' }} className="text-sm mt-0.5">ℹ</span>
                     <p className="text-xs text-gray-400 leading-relaxed">
                       <span className="text-white font-medium">Anúncios pagos são à parte.</span>{' '}
-                      O valor da verba de mídia é investido diretamente no Meta por vocês — não está incluso nos planos.
+                      O valor da verba de mídia é investido diretamente no Meta por vocês, não está incluso nos planos.
                       Recomendamos mínimo de R$ 1.000/mês para campanhas de geração de leads.
                     </p>
                   </div>

@@ -11,7 +11,6 @@ const planoBase = [
   'Públicos personalizados e Lookalike Audience',
   'Configuração e monitoramento do Pixel Meta',
   'Relatório mensal com métricas e insights',
-  'Treinamento da equipe para conversão via DM',
   'Reunião mensal de alinhamento estratégico',
 ]
 
@@ -35,7 +34,7 @@ export default function Investimento() {
             </h2>
             <p className="text-gray-400 mt-4 text-lg max-w-2xl mx-auto">
               Escolha o período que faz mais sentido para a sua operação.
-              Quanto mais comprometimento, maior o resultado — e menor o custo mensal.
+              Quanto mais comprometimento, maior o resultado e menor o custo mensal.
             </p>
           </div>
         </FadeUp>
@@ -44,7 +43,7 @@ export default function Investimento() {
         <FadeUp delay={0.1}>
           <div className="mb-6">
             <div className="text-xs font-semibold tracking-widest uppercase mb-4" style={{ color: 'var(--gold)' }}>
-              Assessoria — Plano Base
+              Assessoria: Plano Base
             </div>
           </div>
         </FadeUp>
@@ -125,7 +124,7 @@ export default function Investimento() {
                     <div className="text-sm text-gray-500 line-through">R$ 6.000</div>
                   </div>
                   <div className="text-sm mt-1" style={{ color: 'var(--gold)' }}>
-                    R$ 1.800/mês — 10% de desconto
+                    R$ 1.800/mês (10% de desconto)
                   </div>
                 </div>
               </div>
@@ -150,7 +149,7 @@ export default function Investimento() {
                 className="text-xs text-gray-500 pt-4 border-t"
                 style={{ borderColor: 'rgba(201,168,76,0.15)' }}
               >
-                Pagamento à vista. Comprometimento de 3 meses — tempo mínimo para ver resultados concretos.
+                Pagamento à vista. Comprometimento de 3 meses, tempo mínimo para ver resultados concretos.
               </div>
             </div>
           </FadeUp>
@@ -160,7 +159,7 @@ export default function Investimento() {
         <FadeUp delay={0.25}>
           <div className="mb-4">
             <div className="text-xs font-semibold tracking-widest uppercase mb-4" style={{ color: 'var(--gold)' }}>
-              Add-on opcional — Pacote de Artes
+              Add-on opcional: Pacote de Artes
             </div>
           </div>
         </FadeUp>
@@ -176,8 +175,7 @@ export default function Investimento() {
                   + R$ 800<span className="text-base font-normal text-gray-500">/mês</span>
                 </div>
                 <p className="text-sm text-gray-400 mt-2 leading-relaxed">
-                  Criação de artes e edição de fotos por uma equipe especializada em conteúdo para o mercado imobiliário.
-                  Entregamos tudo pronto — você só aprova.
+                  Criação de artes e edição de fotos realizada por uma empresa parceira especializada em conteúdo visual para o mercado imobiliário. Tudo entregue pronto para você aprovar.
                 </p>
                 <div
                   className="mt-4 inline-block px-3 py-1 rounded-full text-xs"
@@ -206,52 +204,21 @@ export default function Investimento() {
           </div>
         </FadeUp>
 
-        {/* Resumo e nota verba */}
+        {/* Nota verba */}
         <FadeUp delay={0.35}>
-          <div className="grid md:grid-cols-2 gap-6 mt-6">
-
-            {/* Resumo total */}
-            <div
-              className="p-6 rounded-xl border"
-              style={{ background: 'rgba(201,168,76,0.04)', borderColor: 'rgba(201,168,76,0.2)' }}
-            >
-              <div className="text-sm font-semibold text-white mb-4">Resumo do investimento</div>
-              <div className="flex flex-col gap-2">
-                <div className="flex justify-between text-sm">
-                  <span className="text-gray-400">Assessoria mensal</span>
-                  <span className="text-white font-medium">R$ 2.000/mês</span>
-                </div>
-                <div className="flex justify-between text-sm">
-                  <span className="text-gray-400">Assessoria trimestral</span>
-                  <span className="text-white font-medium">R$ 5.400 à vista</span>
-                </div>
-                <div
-                  className="border-t pt-2 mt-1"
-                  style={{ borderColor: 'rgba(201,168,76,0.15)' }}
-                >
-                  <div className="flex justify-between text-sm">
-                    <span className="text-gray-400">+ Add-on Artes</span>
-                    <span className="font-medium" style={{ color: 'var(--gold)' }}>+ R$ 800/mês</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Nota verba */}
-            <div
-              className="p-6 rounded-xl border"
-              style={{ background: 'rgba(255,255,255,0.02)', borderColor: 'rgba(255,255,255,0.06)' }}
-            >
-              <div className="text-sm font-semibold text-white mb-3">Sobre a verba de anúncios</div>
-              <p className="text-sm text-gray-400 leading-relaxed">
-                O custo dos anúncios pagos (Meta Ads) <span className="text-white">não está incluso</span> nos planos acima.
-                Essa verba é investida diretamente por vocês no Meta — total controle e transparência.
-              </p>
-              <p className="text-sm text-gray-500 mt-3 leading-relaxed">
-                Recomendamos iniciar com <span className="text-gray-300">R$ 1.000 a R$ 2.000/mês</span> em mídia para
-                geração de leads qualificados no mercado de Indaiatuba.
-              </p>
-            </div>
+          <div
+            className="p-6 rounded-xl border mt-6"
+            style={{ background: 'rgba(255,255,255,0.02)', borderColor: 'rgba(255,255,255,0.06)' }}
+          >
+            <div className="text-sm font-semibold text-white mb-3">Sobre a verba de anúncios</div>
+            <p className="text-sm text-gray-400 leading-relaxed">
+              O custo dos anúncios pagos (Meta Ads) <span className="text-white">não está incluso</span> nos planos acima.
+              Essa verba é investida diretamente por vocês no Meta, com total controle e transparência.
+            </p>
+            <p className="text-sm text-gray-500 mt-3 leading-relaxed">
+              Recomendamos iniciar com <span className="text-gray-300">R$ 1.000 a R$ 2.000/mês</span> em mídia para
+              geração de leads qualificados no mercado de Indaiatuba.
+            </p>
           </div>
         </FadeUp>
 
