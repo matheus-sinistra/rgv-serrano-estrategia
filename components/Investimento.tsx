@@ -5,6 +5,7 @@ import SectionLabel from './ui/SectionLabel'
 
 const planoBase = [
   'Diagnóstico e posicionamento inicial',
+  'Gestão de 2 perfis no Instagram (RGV + perfil pessoal)',
   'Calendário editorial mensal completo',
   'Roteiros prontos para gravação',
   'Gestão de anúncios Meta Ads (criação + otimização)',
@@ -56,9 +57,12 @@ export default function Investimento() {
               <div className="flex items-start justify-between mb-6">
                 <div>
                   <div className="text-sm text-gray-400 mb-1">Mensal</div>
-                  <div className="text-4xl font-bold text-white">
-                    R$ 2.000
-                    <span className="text-base font-normal text-gray-500">/mês</span>
+                  <div className="flex items-baseline gap-2">
+                    <div className="text-4xl font-bold text-white">
+                      R$ 1.800
+                      <span className="text-base font-normal text-gray-500">/mês</span>
+                    </div>
+                    <div className="text-sm text-gray-500 line-through">R$ 2.000</div>
                   </div>
                 </div>
                 <div
@@ -119,12 +123,12 @@ export default function Investimento() {
                   <div className="text-sm text-gray-400 mb-1">Trimestral</div>
                   <div className="flex items-baseline gap-2">
                     <div className="text-4xl font-bold text-white">
-                      R$ 5.400
+                      R$ 4.500
                     </div>
                     <div className="text-sm text-gray-500 line-through">R$ 6.000</div>
                   </div>
                   <div className="text-sm mt-1" style={{ color: 'var(--gold)' }}>
-                    R$ 1.800/mês (10% de desconto)
+                    R$ 1.500/mês (25% de desconto)
                   </div>
                 </div>
               </div>
